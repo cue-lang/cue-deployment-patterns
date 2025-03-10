@@ -10,6 +10,13 @@ The application abstraction uses a unified configuration approach whereby the co
 - The ability to define cross-environment values, e.g. "This value in preprod should be the same in prod"
 - Allows users to compose their abstracted configuration however they want
 
+## User Requirements
+
+- Hide implementation details from users
+- Enforce platform policies on users
+- Support several deployment targets such as pre-prod and prod environments
+- Construct complex configuration with a simplified interface
+
 ## Structure
 
 The platform abstractions are defined in [platform](./platform/) under a seperate package. This package can be published within a module and distributed internally within your organisation.
