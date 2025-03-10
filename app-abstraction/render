@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-CUE_EXPERIMENT=evalv3 cue export -e "yaml.MarshalStream(manifests.$1)" --out text
